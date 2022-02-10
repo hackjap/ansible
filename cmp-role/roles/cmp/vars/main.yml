@@ -1,0 +1,4 @@
+---
+# vars file for cmp
+hosts_path: "/etc/test"
+docker_conf_path: "/etc/test/docker"

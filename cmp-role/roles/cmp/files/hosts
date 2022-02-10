@@ -1,0 +1,104 @@
+
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+
+#
+#61.107.176.11 harbor.dreamcloud.co.kr
+#61.107.176.11 vault.dreamcloud.co.kr
+#61.107.176.11 keycloak.dreamcloud.co.kr
+#61.107.176.11 kibana.dreamcloud.co.kr
+#61.107.176.11 jenkins.dreamcloud.co.kr
+#61.107.176.11 sonarqube.dreamcloud.co.kr
+#61.107.176.11 nexus.dreamcloud.co.kr
+#61.107.176.11 rabbitmq.dreamcloud.co.kr
+#61.107.176.11 docs.dreamcloud.co.kr
+#61.107.176.11 pipeline.dreamcloud.co.kr
+#61.107.176.11 pipeline.api.dreamcloud.co.kr
+#61.107.176.11 admin.dreamcloud.co.kr
+#61.107.176.11 admin.api.dreamcloud.co.kr
+#61.107.176.11 www.dreamcloud.co.kr
+#61.107.176.11 user.api.dreamcloud.co.kr
+#61.107.176.11 dashboard.admin.dreamcloud.co.kr
+#61.107.176.11 dashboard.admin.api.dreamcloud.co.kr
+#61.107.176.11 contrabass.dreamcloud.co.kr
+#61.107.176.11 contrabass.api.dreamcloud.co.kr
+
+# OKESTRO 
+100.0.0.184 harbor.okestro.cld
+#100.0.0.189 harbor.okestro.cld
+100.0.0.183 vault.okestro.cld
+
+#dream mark 1
+101.202.45.20 kibana.dreamcloud.co.kr
+101.202.45.20 keycloak.dreamcloud.co.kr
+101.202.45.20 vault.dreamcloud.co.kr
+101.202.45.20 jenkins.dreamcloud.co.kr
+101.202.45.20 sonarqube.dreamcloud.co.kr
+101.202.45.20 nexus.dreamcloud.co.kr
+101.202.45.20 vault.dreamcloud.co.kr
+101.202.45.20 harbor.dreamcloud.co.kr
+101.202.45.20 rabbitmq.dreamcloud.co.kr
+101.202.45.20 docs.dreamcloud.co.kr
+101.202.45.20 pipeline.dreamcloud.co.kr
+101.202.45.20 pipeline.api.dreamcloud.co.kr
+101.202.45.20 admin.dreamcloud.co.kr
+101.202.45.20 admin.api.dreamcloud.co.kr
+101.202.45.20 www.dreamcloud.co.kr
+101.202.45.20 user.api.dreamcloud.co.kr
+101.202.45.20 dashboard.admin.dreamcloud.co.kr
+101.202.45.20 dashboard.admin.api.dreamcloud.co.kr
+101.202.45.20 contrabass.dreamcloud.co.kr
+101.202.45.20 contrabass.api.dreamcloud.co.kr
+
+# okestro
+100.0.0.189 user.cmp.okestro.cld
+100.0.0.189 www.cmp.okestro.cld
+100.0.0.189 admin.api.cmp.okestro.cld
+100.0.0.189 admin.cmp.okestro.cld
+100.0.0.189 contrabass.api.okestro.cld
+100.0.0.189 contrabass.okestro.cld
+100.0.0.189 dashboard.cmp.okestro.cld
+100.0.0.189 dashboard.api.cmp.okestro.cld
+100.0.0.189 pipeline.cmp.dev.okestro.cld
+
+#mycustom
+
+127.0.0.1 test.okestro.com
+100.0.0.159 jsp.okestro.com
+
+
+100.0.0.189 rabbitmq.cmp.dev.okestro.cld/
+
+
+#klid
+100.0.0.218	admin.devcmp.or.kr
+100.0.0.218	admin.api.devcmp.or.kr
+100.0.0.218	user.api.devcmp.or.kr
+100.0.0.218	www.devcmp.or.kr
+100.0.0.218	docs.devcmp.or.kr
+100.0.0.218	dashboard.admin.api.devcmp.or.kr
+100.0.0.218	dashboard.api.devcmp.or.kr
+100.0.0.218	dashboard.admin.devcmp.or.kr
+100.0.0.218	dashboard.devcmp.or.kr
+100.0.0.218	contrabass.api.devcmp.or.kr
+100.0.0.218	contrabass.devcmp.or.kr
+100.0.0.218	admin.devcmp.or.kr
+100.0.0.218	www.devcmp.or.kr
+
+# test server
+100.0.0.189 www.test.okestro.cld
+100.0.0.189 admin.test.okestro.cld
+100.0.0.189 admin.api.test.okestro.cld
+100.0.0.189 user.api.test.okestro.cld
+

@@ -1,0 +1,37 @@
+- name: "backup docker conf"
+  copy: 
+    src: "{{docker_conf_path}}/daemon.json"
+    dest: "{{docker_conf_path}}/daemon.json.bak"
+
+- name: "change docker conf"
+  copy:
+    src: "../files/daemon.json"
+    dest: "{{docker_conf_path}}/daemon.json"
+
+# - name: docker service restart
+#   service:
+#     name: docker
+#     state: restarted
+
+# - name: cat daemon.json
+#   shell: cat /etc/docker/daemon.json
+#   register: daemon
+
+# - name: docker info
+#   shell: docker info
+#   register: info
+
+# - name: cat daemon.json
+#   debug:
+#     msg: "{{daemon}}"
+
+# - name: docker info
+#   debug:
+#     msg: "{{info}}"
+
+# - name: docker login
+#   shell: docker login harbor.okestro.cld -u admin -p okestro2018
+
+
+
+

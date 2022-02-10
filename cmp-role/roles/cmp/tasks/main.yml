@@ -1,0 +1,7 @@
+---
+# tasks file for cmp
+- name: setting etc hosts
+  include_tasks: hosts.yml
+
+- name: harbor insecure setting 
+  include_tasks: harbor_insecure.yml

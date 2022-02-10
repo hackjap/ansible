@@ -1,0 +1,7 @@
+--- 
+- name: Add hosts
+  hosts: localhost
+  become: no
+  
+  roles:
+    - { role: ./roles/cmp }
